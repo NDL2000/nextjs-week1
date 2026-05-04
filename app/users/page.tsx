@@ -22,7 +22,7 @@ export default async function Page() {
           </thead>
           <tbody className="divide-y divide-gray-700">
             {users.map((user) => (
-              <tr key={user.id} className="hover:bg-gray-800 transition-colors">
+              <tr key={user.id} className="bg-white hover:bg-gray-50 transition-colors">
                 <td className="px-4 py-3 text-gray-400">{user.id}</td>
                 <td className="px-4 py-3 font-medium">{user.name}</td>
                 <td className="px-4 py-3 text-gray-400">{user.email}</td>
